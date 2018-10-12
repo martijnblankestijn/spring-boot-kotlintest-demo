@@ -13,7 +13,7 @@ The testcase is configured like this:
 class ShoppingOrderSpec : WordSpec() {
     override fun listeners() = listOf(SpringListener)
 ```
-By using the ]SpringExtension](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#integration-testing-annotations-junit-jupiter) 
+By using the [SpringExtension](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#integration-testing-annotations-junit-jupiter) 
 by Spring to hook into the JUnit 5 engine and Wordspec from [Kotlintest](https://github.com/kotlintest/kotlintest/) to structure the tests 
 and do the assertions with Kotlintest.
 
