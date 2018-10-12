@@ -22,7 +22,6 @@ Running the testcase gives the following stack-trace:
 ```
 2018-10-12 10:54:14.329  INFO 59374 --- [intest-engine-0] com.example.demo.ShoppingOrderSpec       : Started ShoppingOrderSpec in 4.478 seconds (JVM running for 7.421)
 org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.example.demo.ShoppingOrder.lines, could not initialize proxy - no Session
-
 	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:582)
 ...
   at com.example.demo.ShoppingOrderSpec$1$1.invoke(ShoppingOrderSpec.kt:35)
